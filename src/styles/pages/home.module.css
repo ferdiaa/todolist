@@ -1,0 +1,8 @@
+
+.emptyActivity{
+    margin: auto;
+}
+.allActivity{
+    display:flex;
+    flex-wrap: wrap;
+}

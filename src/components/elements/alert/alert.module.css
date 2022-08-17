@@ -1,0 +1,32 @@
+.alert{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+    border-radius: 12px;
+    animation: modalAnimation 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: forwards;
+    opacity: 0;
+    visibility: hidden;
+    width: 490px;
+    height: 58px;
+    padding: 19px 30px;
+    display: flex;
+    align-items: center;
+}
+.alert p{
+    margin-left: 13px;
+    font-weight: bold;
+}
+@keyframes modalAnimation {
+    0%{
+        opacity: 0;
+        top: 10px;
+    }
+    100%{
+        opacity: 1;
+        top: 50%;
+        visibility: visible;
+    }
+}

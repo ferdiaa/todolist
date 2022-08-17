@@ -1,0 +1,65 @@
+.activityAction{
+    display: flex;
+    align-items: center;
+}
+.activityAction button{
+    border: 0;
+    background: transparent;
+}
+.activityAction h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 23px 0 36px;
+}
+
+.activityAction input{
+    width: 330px;
+    font-size:36px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    margin: 0 23px 0 36px;
+}
+.activityAction svg{
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    width: max-content !important;
+}
+.filter .titleDropdown{
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border: 1px solid var(--disabled-color);
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+}
+.dataDropdown{
+    width: 235px !important;
+    height: max-content !important;
+}
+.dataDropdown button{
+    width: 100%;
+    padding: 12px 24px;
+    border: none;
+    border-bottom: 1px solid var(--grey-color);
+    font-size:16px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+.dataDropdown button svg{
+    margin-right: 15px;
+}
+.emptyTodoIcon{
+    display:block;
+    margin: auto;
+}

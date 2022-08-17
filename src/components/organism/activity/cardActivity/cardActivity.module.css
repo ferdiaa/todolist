@@ -1,0 +1,41 @@
+.cardActivity{
+    width:22.5%;
+    margin-right: 2.5%;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 234px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius:12px;
+    margin-bottom:26px;
+    cursor:pointer;
+    position:relative;
+}
+.bodyActivity{
+    padding:22px 26px;
+    height: 100%;
+}
+.cardActivity .activityTitle{
+    font-size: 20px;
+}
+.activityDetail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--disabled-color);
+    position:absolute;
+    bottom:0;
+    left:0;
+    border-radius: inherit;
+    padding:inherit;
+    z-index: 1;
+    padding:22px 26px;
+}
+.activityDetail p{
+    font-size:14px;
+}
+.activityDetail svg{
+    cursor: pointer;
+}

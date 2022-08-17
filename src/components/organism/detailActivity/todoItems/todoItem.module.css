@@ -1,0 +1,40 @@
+.todoItem{
+    width:100%;
+    position: relative;
+    padding: 0 28px;
+    height: 80px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    background:white;
+    border-radius:6px;
+    margin-bottom:10px;
+}
+.todoItem input{
+    width:20px;
+    height:20px;
+    margin-right: 22px;
+}
+.todoItem p{
+    font-weight: bold;
+    margin-right: 26px;
+}
+.todoItem p{
+    margin-right: 16px;
+}
+.done{
+    text-decoration: line-through;
+    color: var(--disabled-color);
+}
+.todoItem button{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.todoItem button{
+    position:absolute;
+    top: 50%;
+    right: 29px;
+    transform: translateY(-50%);
+}

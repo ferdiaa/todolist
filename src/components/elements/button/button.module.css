@@ -1,0 +1,28 @@
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 159px;
+    height: 54px;
+    color:var(--white-color);
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+}
+.button svg{
+    margin-right: 11px;
+}
+.button:not(svg){
+    font-size: 18px;
+}
+
+.primary{
+    background-color: var(--primary-color);
+}
+.disabled{
+    background-color: var(--grey-color);
+    color: var(--disabled-color);
+}
+.pink{
+    background-color: var(--pink-color);
+}
